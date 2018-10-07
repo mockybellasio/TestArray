@@ -16,7 +16,7 @@ public class TestArray1 {
 	}
 	
 	
-	//tableau inversé 
+	//tableau inversÃ© 
 	
 	for( i = 0; i < array.length / 2; i++)
 	  {
@@ -24,12 +24,29 @@ public class TestArray1 {
 	      array[i] = array[array.length - i - 1];
 	      array[array.length - i - 1] = temp;}
 	
-     System.out.println("tableau inversé");
+     System.out.println("tableau inversÃ©");
        for ( i=0; i<array.length;i++){
 	    System.out.println(array[i]);
 }
 	
-				
+	// la liste des chiffres paires :
+
+
+for ( i= 0; i <= array.length - 1; i++){
+    if (array[i] % 2 == 0) 
+    System.out.println("les chiffres paires sont :"+ array[i]);
+    
+   
+    }
+	
+	 // la liste des chiffres impaires : 
+    
+    for (i=0; i <= array.length - 1; i++){
+	    if (array[i] % 2 != 0) 
+	    	System.out.println("les chiffres impaires sont :"+ array[i]);    
+    
+	    }	
+		
 				
 	// valeur minimale et valeur maximale
 				
