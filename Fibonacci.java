@@ -6,8 +6,8 @@ public class Fibonacci {
 	
 		// calcul de la suite de Fibonacci à partir de l'indice 5
 		
-		int index = 5
-		;
+		int index = 5;
+		
 		while (true){
 			System.out.println(fibonacci(index));
 			index++;
