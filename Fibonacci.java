@@ -4,6 +4,8 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 	
+		// calcul de la suite de Fibonacci à partir de l'indice 5
+		
 		int index = 5
 		;
 		while (true){
